@@ -1,0 +1,31 @@
+
+			##	     .
+		## ## ##	    --
+	   ## ## ## ## ##	   ---
+     /"""""""""""""""""\___/  ---
+ ~~~{~~ ~~~~~ ~~~ ~~~~ ~~~ ~ /  ==- ~~~
+     \_______ °           __/
+       \     \          _/
+        \_____\________/
+
+-----------------------------------------------------------------------------------------
+LEEME.TXT - Reto_2.py
+Autor: Rafael Atencio Merlano
+-----------------------------------------------------------------------------------------
+
+1. Los archivos de las boletas y la carpeta donde se guarda el consolidado 
+se han puesto dentro del proyecto para facilitar su ejecución al momento de hacer pruebas.
+
+2. Para el envío de correo desde python con una cuenta gmail se usa una contraseña de 
+aplicaciones (generada desde la sección de seguridad de la cuenta de google) 
+
+El correo de envío es 
+Email: Reto2Python@gmail.com
+Contraseña de aplicaciones: wghfdcqcwymepmhr
+
+3. para confirmar el envío del correo con el documento adjunto se debe agregar un correo de 
+recepción en en la variable "destinatario" que está contenida en Reto_2.py en la linea 17
+
+4. Una vez ejecutado este creará el archivo "Consolidado.pdf" en:
+Reto_2-python\app
+Si se quiere ejecutar de nuevo se debe borrar dicho archivo antes.
