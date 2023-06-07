@@ -12,20 +12,31 @@
 LEEME.TXT - Reto_2.py
 Autor: Rafael Atencio Merlano
 -----------------------------------------------------------------------------------------
+1. El proceso para consolidar las voletas y enviarlas por correo se ha codificado con una 
+basada en funciones, de esta manera se tiene una funcion para la lectura de los datos 
+(module_leer.py), una función para para crear el pdf (module_pdf.py) y una función para 
+enviar el correo (module_correo.py), todas estas se llaman desde el codigo principal 
+contenido en Reto_2.py, esta es una forma más eficiente y ordenada de elaborar un código.
 
-1. Los archivos de las boletas y la carpeta donde se guarda el consolidado 
+Los archivos atentes mensionados estan hubicados en:
+Reto_2.py		= Reto_2-python > app > Reto_2.py	
+module_leer.py		= Reto_2-python > app > packagemodule_leer.py
+module_pdf.py		= Reto_2-python > app > module_pdf.py
+module_correo.py	= Reto_2-python > app > module_correo.py
+
+2. Los archivos de las boletas y la carpeta donde se guarda el consolidado 
 se han puesto dentro del proyecto para facilitar su ejecución al momento de hacer pruebas.
 
-2. Para el envío de correo desde python con una cuenta gmail se usa una contraseña de 
+3. Para el envío de correo desde python con una cuenta gmail se usa una contraseña de 
 aplicaciones (generada desde la sección de seguridad de la cuenta de google) 
 
 El correo de envío es 
 Email: Reto2Python@gmail.com
 Contraseña de aplicaciones: wghfdcqcwymepmhr
 
-3. para confirmar el envío del correo con el documento adjunto se debe agregar un correo de 
+4. para confirmar el envío del correo con el documento adjunto se debe agregar un correo de 
 recepción en en la variable "destinatario" que está contenida en Reto_2.py en la linea 17
 
-4. Una vez ejecutado este creará el archivo "Consolidado.pdf" en:
+5. Una vez ejecutado este creará el archivo "Consolidado.pdf" en:
 Reto_2-python\app
 Si se quiere ejecutar de nuevo se debe borrar dicho archivo antes.
